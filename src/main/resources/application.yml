@@ -1,0 +1,18 @@
+# 给Employee属性赋值
+employee:
+  id: 2
+  name: 张三     # 普通字符串
+  leader: true  # 布尔类型
+  birthday: 1998/01/01  #时间类型
+  roles:   # 数组
+    - father
+    - empl
+    - son
+  salType: # map集合
+    base: 3000   # 基本工资
+    bonus: 8888  # 奖金
+  dept:  # 引用对象
+    deptId: 1
+    deptName: 开发部
+
+beinuan-name: 北暖
